@@ -23,10 +23,14 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.ativo) {
   background-color: #111;
 }
 
-.active {
+.ativo {
   background-color: #04AA6D;
+}
+
+#sobre {
+  float: right;
 }
