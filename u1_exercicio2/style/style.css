@@ -28,9 +28,27 @@ li a:hover:not(.ativo) {
 }
 
 .ativo {
-  background-color: #04AA6D;
+  background-color: rgb(67, 119, 168);
 }
 
 #sobre {
   float: right;
+}
+
+.botao {
+  color: white;
+  border: none;
+  background-color: rgb(67, 119, 168);
+  text-align: center;
+  width: 95px;
+  height: 35px;
+  margin-top: 10px;
+}
+
+#bLimpar {
+  width: 75px;
+}
+
+.inputSexo {
+  margin: 10px;
 }
