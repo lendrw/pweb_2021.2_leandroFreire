@@ -52,3 +52,7 @@ li a:hover:not(.ativo) {
 .inputSexo {
   margin: 10px;
 }
+
+div {
+  text-align: center;
+}
