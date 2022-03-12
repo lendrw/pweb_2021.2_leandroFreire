@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -53,6 +57,23 @@ li a:hover:not(.ativo) {
   margin: 10px;
 }
 
-div {
+div#agua {
   text-align: center;
 }
+
+thead {
+  font-weight: bold;
+}
+
+table { 
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+  align-items: center;
+}
+
+td {
+  border: 1px solid #eee;
+}
+
+
