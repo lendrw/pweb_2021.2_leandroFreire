@@ -19,44 +19,38 @@
 
       <h1>Lista de pessoas cadastradas</h1>
 
-      <div>
       <table>
           <thead>
           <tr>
               <th>Nome completo</th>
               <th>Data de nascimento</th>
               <th>e-Mail</th>
-              <th>Sexo</th>
+              <th>Gênero</th>
               <th>Editar</th>
               <th>Remover</th>
           </tr>
         </thead>
-          <tr>
-              <td>José</td>
-              <td>01/01/1900</td>
-              <td><a href="mailto:jose@outro.com">jose@outro.com</a></td>
-              <td>Masculino</td>
-              <td><a href="editarPessoa.html">Editar</a></td>
-              <td><a href="#">Remover</a></td>
-          </tr>
-          <tr>
-              <td>Maria</td>
-              <td>01/01/1890</td>
-              <td><a href="mailto:maria@outro.com">maria@outro.com</a></td>
-              <td>Feminino</td>
-              <td><a href="editarPessoa.html">Editar</a></td>
-              <td><a href="#">Remover</a></td>
-          </tr>
-          <tr>
-              <td>Pablita</td>
-              <td>01/01/1900</td>
-              <td><a href="mailto:naoSei@dominio.com">naoSei@dominio.com</a></td>
-              <td>Não informado</td>
-              <td><a href="editarPessoa.html">Editar</a></td>
-              <td><a href="#">Remover</a></td>
-          </tr>
+          
+        <tbody>
+            <tr th:each="pessoa: ${pessoas}">
+                <td th:text="${pessoa.id}"></td>
+                <td th:text="${pessoa.nome}"></td>
+                <td>
+                    <a th:href='mailto:'+${pessoa.email}"th:text="${pessoa.email}></a>
+                </td>
+                
+                    <td th:text="${#temporals.format(pessoa.dataNascimento, 'dd/MM/yyyy')}"></td>
+                    <td th:text="${pessoa.genero}"></td>
+                <td>
+                    <a th:href="@{/editar/{id}(id=${pessoa.id})}">Editar</a>
+                </td>
+                <td>
+                    <a th:href="@{/remover/{id}(id=${pessoa.id})}">Remover</a>
+                </td>
+
+        </tbody>
       </table>
-      </div>
+      
 </body>
 
 </html>
