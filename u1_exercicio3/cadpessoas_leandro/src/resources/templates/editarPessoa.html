@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <title>PWeb - by Xico Arruda</title>
+
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="adicionarPessoa.html">Adicionar pessoa</a></li>
+        <li><a class="ativo" href="listarPessoas.html">Listar pessoas</a></li>
+        <li><a href="noticias.html">Canais de notícias</a></li>
+        <li><a href="contato.html">Mande um e-Mail</a></li>
+        <li id="sobre"><a href="sobre.html">Sobre o site</a></li>
+      </ul>
+
+      <h1>Formulário para edição de pessoas:</h1>
+
+      <p>Nome completo *: <input type="text" name="nomeUsuario" id="nUsuario" size="13" maxlength="50" placeholder="Seu nome completo"></p>
+
+      <p>Data de nascimento *: <input type="date" name="dataNascimento" id="dNascimento" size="6"> </p>
+
+      <p>e-Mail *: <input type="email" name="email" id="email" size="13" placeholder="nome@dominio.com"> </p>
+
+      <p>Sexo *:</p>
+    
+        <input class="inputSexo" type="radio" name="sexo" id="sMasculino"> <label for="sMasculino">Masculino</label><br>
+        
+        <input class="inputSexo" type="radio" name="sexo" id="sFeminino"> <label for="sFeminino">Feminino</label><br>
+
+        <input class="inputSexo" type="radio" name="sexo" id="sNinformado"> <label for="sNinformado">Não informar</label><br>
+
+        <input class="botao" id="bLimpar" type="button" value="Limpar">
+        <a href="adicionadaComSucesso.html">
+          <input class="botao" type="button" value="Cadastrar!"></a>
+    
+        
+      <p>Campo obrigatório *</p>
+
+</body>
+
+</html>
