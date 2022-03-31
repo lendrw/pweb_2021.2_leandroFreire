@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.ativo) {
+    background-color: #111;
+  }
+  
+  .ativo {
+    background-color: rgb(67, 119, 168);
+  }
+  
+  #sobre {
+    float: right;
+  }
+  
+  .botao {
+    color: white;
+    border: none;
+    background-color: rgb(67, 119, 168);
+    text-align: center;
+    width: 95px;
+    height: 35px;
+    margin-top: 10px;
+  }
+  
+  #bLimpar {
+    width: 75px;
+  }
+  
+  .inputSexo {
+    margin: 10px;
+  }
+  
+  div#agua {
+    text-align: center;
+  }
+  
+  thead {
+    font-weight: bold;
+  }
+  
+  table { 
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    align-items: center;
+  }
+  
+  td {
+    border: 1px solid #eee;
+  }
+  
+  
+  

@@ -25,6 +25,11 @@ public class PessoaController{
     public String index(){
         return "index.html";
     }
+
+    @GetMapping
+    public String sobre(){
+        return "sobre.html";
+    }
     
     @GetMapping("/listarPessoas")
     public ModelAndView listarPessoas(){
