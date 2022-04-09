@@ -1,6 +1,5 @@
 package br.com.leandro.cadpessoas.controllers;
 
-
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,10 +15,14 @@ import br.com.leandro.cadpessoas.repositories.PessoaRepository;
 
 @Controller
 @RequestMapping("/")
-public class PessoaController{
+public class PessoasController{
 
     @Autowired
     PessoaRepository pessoaRepo;
+
+    PessoasController(PessoaRepository pessoaR){
+        this.pessoaRepo = pessoaR;
+    }
 
     @GetMapping
     public String index(){
@@ -28,13 +31,13 @@ public class PessoaController{
     
     @GetMapping("/listarPessoas")
     public ModelAndView listarPessoas(){
-        List<Pessoa> lista = pessoaRepo.findAll();
+        List<Pessoa> todasAsPessoas = pessoaRepo.findAll();
 
-        ModelAndView mav = new ModelAndView("listarPessoas");
+        ModelAndView modelAndView = new ModelAndView("listarPessoas");
 
-        mav.addObject("pessoas", lista);
+        modelAndView.addObject("todasAsPessoas", todasAsPessoas);
 
-        return mav;
+        return modelAndView;
     }
 
     @GetMapping("/adicionarPessoa")

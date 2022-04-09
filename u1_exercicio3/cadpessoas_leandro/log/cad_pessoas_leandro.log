@@ -1,0 +1,49 @@
+2022-04-08 22:09:42.823  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Starting CadpessoasLeandroApplication using Java 1.8.0_322 on Leandro with PID 9208 (C:\Users\leand\Documentos\GitHub\pweb_2021.2_leandroFreire\u1_exercicio3\cadpessoas_leandro\target\classes started by leand in c:\Users\leand\Documentos\GitHub\pweb_2021.2_leandroFreire\u1_exercicio3\cadpessoas_leandro)
+2022-04-08 22:09:42.825  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-04-08 22:09:42.915  INFO 9208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-08 22:09:42.917  INFO 9208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-08 22:09:45.700  INFO 9208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 22:09:46.062  INFO 9208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 260 ms. Found 1 JPA repository interfaces.
+2022-04-08 22:09:48.932  INFO 9208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-08 22:09:49.007  INFO 9208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-08 22:09:49.009  INFO 9208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-08 22:09:49.585  INFO 9208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-08 22:09:49.585  INFO 9208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6667 ms
+2022-04-08 22:09:49.667  INFO 9208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-08 22:09:50.603  INFO 9208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-08 22:09:50.653  INFO 9208 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-04-08 22:09:54.395  INFO 9208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 22:09:55.689  INFO 9208 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-08 22:09:56.546  INFO 9208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-08 22:09:57.247  INFO 9208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-08 22:09:57.262  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Started CadpessoasLeandroApplication in 15.844 seconds (JVM running for 20.011)
+2022-04-08 22:10:22.611  INFO 9208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 22:10:22.611  INFO 9208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-08 22:10:22.611  INFO 9208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-08 22:10:46.373  INFO 9208 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 22:10:46.662  WARN 9208 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-04-08 22:10:46.663  INFO 9208 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-08 22:10:46.667  INFO 9208 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-08 22:10:46.932  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Starting CadpessoasLeandroApplication using Java 1.8.0_322 on Leandro with PID 9208 (C:\Users\leand\Documentos\GitHub\pweb_2021.2_leandroFreire\u1_exercicio3\cadpessoas_leandro\target\classes started by leand in c:\Users\leand\Documentos\GitHub\pweb_2021.2_leandroFreire\u1_exercicio3\cadpessoas_leandro)
+2022-04-08 22:10:46.933  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-04-08 22:10:47.283  INFO 9208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-08 22:10:47.301  INFO 9208 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2022-04-08 22:10:47.727  INFO 9208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-04-08 22:10:47.727  INFO 9208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-08 22:10:47.727  INFO 9208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-08 22:10:47.757  INFO 9208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-08 22:10:47.757  INFO 9208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 820 ms
+2022-04-08 22:10:47.776  INFO 9208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-04-08 22:10:47.784  INFO 9208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-04-08 22:10:47.785  INFO 9208 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-04-08 22:10:48.091  INFO 9208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-08 22:10:48.272  INFO 9208 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-04-08 22:10:48.362  INFO 9208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-08 22:10:48.382  INFO 9208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-08 22:10:48.388  INFO 9208 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Started CadpessoasLeandroApplication in 1.526 seconds (JVM running for 71.121)
+2022-04-08 22:10:48.392  INFO 9208 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-08 22:11:03.371  INFO 9208 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-08 22:11:03.373  INFO 9208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-08 22:11:03.376  INFO 9208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-08 22:11:03.466  WARN 9208 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2022-04-08 22:37:10.155  WARN 9208 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
