@@ -1,80 +1,111 @@
-* {
-    box-sizing: border-box;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*Estilo do menu*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li#sobre {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.ativo {
+  background-color: rgb(67, 119, 168);
+}
+
+/*Responsividade*/
+
+@media screen and (max-width: 700px) {
+  body{
+    margin: auto;
   }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+
+  ul li, ul li#sobre {
+    float: none;
   }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.ativo) {
-    background-color: #111;
-  }
-  
-  .ativo {
-    background-color: rgb(67, 119, 168);
-  }
-  
-  #sobre {
-    float: right;
-  }
-  
-  .botao {
-    color: white;
-    border: none;
-    background-color: rgb(67, 119, 168);
-    text-align: center;
-    width: 95px;
-    height: 35px;
-    margin-top: 10px;
-  }
-  
-  #bLimpar {
-    width: 75px;
-  }
-  
-  .inputSexo {
-    margin: 10px;
-  }
-  
-  div#agua {
-    text-align: center;
-  }
-  
-  thead {
-    font-weight: bold;
-  }
-  
-  table { 
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
-    align-items: center;
-  }
-  
-  td {
-    border: 1px solid #eee;
-  }
-  
- 
+
+}
+
+div {
+  margin-left: 15px;
+}
+
+/*Estilo da imagem*/
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+/*Estilo dos formulários*/
+
+input {
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 8px 13px;
+  margin-top: 10px;
+  margin-right: 4px;
+  background-color: rgb(67, 119, 168);
+  color: white;
+  border: 1px solid rgb(67, 119, 168);
+  cursor: pointer;
+}
+
+/*Estilo dos links*/
+
+a {
+  color: rgb(67, 119, 168);
+}
+
+/*Estilo da tabela*/
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px 0 8px 0;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
   
