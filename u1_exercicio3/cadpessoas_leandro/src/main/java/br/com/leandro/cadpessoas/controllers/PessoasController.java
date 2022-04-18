@@ -46,10 +46,9 @@ public class PessoasController{
         modelAndView.addObject(new Pessoa());
         return modelAndView;
     }
-
-    @PostMapping("/adicinarPessoa")
-    public String adicionarPessoa(Pessoa p){
-        this.pessoaRepo.save(p);
+    @PostMapping("/adicionarPessoa")
+    public String adicionarPessoa(Pessoa aSalvar) {
+        this.pessoaRepo.save(aSalvar);
         return "redirect:/listarPessoas";
     }
 
