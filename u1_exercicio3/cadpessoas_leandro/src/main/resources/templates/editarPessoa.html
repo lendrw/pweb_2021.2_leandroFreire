@@ -22,24 +22,41 @@
 
       <h1>Formulário para edição de pessoas:</h1>
 
-      <p>Nome completo *: <input type="text" name="nomeUsuario" id="nUsuario" size="13" maxlength="50" placeholder="Seu nome completo"></p>
-
-      <p>Data de nascimento *: <input type="date" name="dataNascimento" id="dNascimento" size="6"> </p>
-
-      <p>e-Mail *: <input type="email" name="email" id="email" size="13" placeholder="nome@dominio.com"> </p>
-
-      <p>Sexo *:</p>
+      <form 
+      action="#"
+      method="post"
+      th:object="${pessoa}"
+      th:action="@{/editar/{id}(id=${pessoa.id})}">
     
-        <input class="inputSexo" type="radio" name="sexo" id="sMasculino"> <label for="sMasculino">Masculino</label><br>
+          <p>
+            Nome completo *: <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required>
+          </p>
+    
+          <p
+          >Data de nascimento *: <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required> 
+        </p>
+    
+          <p>
+            e-Mail *: <input type="email" placeholder="nome@dominio.com" th:field="*{email}" required> 
+          </p>
+    
+          <p>Gênero *:</p>
         
-        <input class="inputSexo" type="radio" name="sexo" id="sFeminino"> <label for="sFeminino">Feminino</label><br>
-
-        <input class="inputSexo" type="radio" name="sexo" id="sNinformado"> <label for="sNinformado">Não informar</label><br>
-
-        <input class="botao" id="bLimpar" type="button" value="Limpar">
-        <a href="adicionadaComSucesso.html">
-          <input class="botao" type="button" value="Cadastrar!"></a>
+          <p>
+            <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required>Masculino
+          </p>
+            
+          <p>
+            <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required>Feminino
+          </p>
     
+          <p>
+            <input type="radio" name="genero" value="Não informar" th:field="*{genero}" required>Não informar
+          </p>  
+    
+            <input class="button" type="reset" value="Limpar">
+            <input class="button" type="submit" value="Cadastrar!"></a>  
+    </form>
         
       <p>Campo obrigatório *</p>
 
