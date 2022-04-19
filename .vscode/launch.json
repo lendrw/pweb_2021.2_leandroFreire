@@ -10,6 +10,17 @@
             "projectName": "cadpessoas_leandro",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SlurpuffShopApplication<slurpuff_shop>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.slurpuff.SlurpuffShopApplication",
+            "projectName": "slurpuff_shop",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
