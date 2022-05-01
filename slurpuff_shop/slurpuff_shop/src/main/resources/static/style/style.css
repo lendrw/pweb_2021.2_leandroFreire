@@ -1,7 +1,11 @@
+html, body {
+    min-height: 100%;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    background-color: black;
+    background-color: white;
   }
   
   /*Estilo do menu*/
@@ -11,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(61, 4, 12);
+    background-color: rgb(58, 21, 0);
   }
   
   li {
@@ -35,7 +39,7 @@ body {
   }
   
   .ativo {
-    background-color: rgb(231, 103, 152);
+    background-color: pink;
   }
   
   /*Responsividade*/
@@ -75,16 +79,16 @@ body {
     padding: 8px 13px;
     margin-top: 10px;
     margin-right: 4px;
-    background-color: rgb(231, 103, 152);
+    background-color: rgb(137, 211, 123);
     color: white;
-    border: 1px solid rgb(231, 103, 152);
+    border: 1px solid rgb(0, 0, 0);
     cursor: pointer;
   }
   
   /*Estilo dos links*/
   
   a {
-    color: rgb(231, 103, 152);
+    color: pink;
   }
   
   /*Estilo da tabela*/
@@ -109,7 +113,7 @@ body {
   footer {
     position: absolute;
     bottom: 0;
-    background-color: rgb(231, 103, 152);
+    background-color: pink;
     color: #FFF;
     width: 100%;
     height: 100px;    
@@ -118,7 +122,9 @@ body {
 }
 
 .social-media {
-    width: 50px;
+    width: 40px;
+    display: inline;
+    padding: 15px;
 }
   
 
