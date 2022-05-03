@@ -1,5 +1,5 @@
 package br.com.slurpuff.model;
 
-public class Dependente {
+public class Dependente{
     
 }
