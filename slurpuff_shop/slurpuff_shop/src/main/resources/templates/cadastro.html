@@ -17,6 +17,56 @@
         <li id="sobre"><a href="/public/sobre.html">Sobre a Slurpuff</a></li>
       </ul>
 
+    
+    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+          <h1>Formulário de cadastro:</h1>
+    
+          
+    <form 
+      method="post"
+      th:object="${cliente}"
+      th:action="@{/cadastro}">
+    
+          <p>
+            Nome completo *: <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required>
+          </p>
+    
+          <p>
+            Cidade *: <input type="text" placeholder="Sua cidade." th:field="*{cidade}" required>
+          </p>
+
+          <p>
+            CEP *: <input type="text" placeholder="CEP." th:field="*{cep}" required>
+          </p>
+
+          <p
+          >Data de nascimento *: <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required> 
+        </p>
+    
+          <p>
+            e-Mail *: <input type="email" placeholder="nome@dominio.com" th:field="*{email}" required> 
+          </p>
+    
+          <p>Gênero *:</p>
+        
+          <p>
+            <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required>Masculino
+          </p>
+            
+          <p>
+            <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required>Feminino
+          </p>
+    
+          <p>
+            <input type="radio" name="genero" value="Não informar" th:field="*{genero}" required>Não informar
+          </p>  
+    
+            <input class="button" type="reset" value="Limpar">
+            <input class="button" type="submit" value="Cadastrar!"></a>  
+    </form>
+            
+          <p>Campo obrigatório *</p>
+    </div>
 
 
       <footer>

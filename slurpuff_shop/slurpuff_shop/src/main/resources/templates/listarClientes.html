@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+        <link th:href="@{style/style.css}" rel="stylesheet">
+        <title>Slurpuff Shop</title>
+    </head>
+
+    <body>
+    
+    <ul class="menu">
+        <li><a class="ativo" href="/">Início</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/adicionarCliente">Cadastro</a></li>
+        <li><a href="/public/contato.html">Fale conosco</a></li>
+        <li id="sobre"><a href="/public/sobre.html">Sobre a Slurpuff</a></li>
+      </ul>
+
+    <div style="text-align: center;">
+        <H1>Lista de clientes cadastrados</H1>
+    </div>
+      <table>
+          <thead>
+          <tr>
+              <th>Código</th>
+              <th>Nome completo</th>
+              <th>Cidade</th>
+              <th>CEP</th>
+              <th>Data de nascimento</th>
+              <th>e-Mail</th>
+              <th>Gênero</th>
+              <th>Editar</th>
+              <th>Remover</th>
+          </tr>
+        </thead>
+    </div>
+
+        <tbody>
+            <tr th:each="umCliente: ${todosOsClientes}">
+                <td th:text="${umCliente.codigoCliente}"></td>
+                <td th:text="${umCliente.nome}"></td>
+                <td>
+                    <a th:href="'mailto:'+${umCliente.email}" th:text="${umCliente.email}"></a>
+                </td>
+                    <td th:text="${#temporals.format(umCliente.dataNascimento, 'dd/MM/yyyy')}"></td>
+                    <td th:text="${umCliente.genero}"></td>
+                <td>
+                    <a th:href="@{/editar/{id}(id=${umCliente.codigoCliente})}">Editar</a>
+                </td>
+                <td>
+                    <a th:href="@{/remover/{id}(id=${umCliente.codigoCliente})}">Remover</a>
+                </td>
+
+        </tbody>
+      </table>
+</body>
+
+</html>

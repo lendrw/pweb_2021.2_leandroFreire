@@ -1,6 +1,5 @@
 package br.com.slurpuff.model;
 
-import java.time.LocalDate;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -12,8 +11,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 public class Produto {
 
-    private static final long serialVersionUID = -4665511553732190877L;
-    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigoProduto;
@@ -104,11 +101,11 @@ public class Produto {
         this.precoVenda = precoVenda;
     }
 
-    public LocalDate getDataCadastro() {
+    public Date getDataCadastro() {
         return this.dataCadastro;
     }
 
-    public void setDataCadastro(LocalDate dataCadastro) {
+    public void setDataCadastro(Date dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
 
