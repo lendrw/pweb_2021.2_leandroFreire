@@ -18,7 +18,9 @@
       </ul>
 
     
-    <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <div id="wrapper">
+        <div class="container body-content">
+    
           <h1>Formulário de cadastro:</h1>
     
           
@@ -61,8 +63,8 @@
             <input type="radio" name="genero" value="Não informar" th:field="*{genero}" required>Não informar
           </p>  
     
-            <input class="button" type="reset" value="Limpar">
-            <input class="button" type="submit" value="Cadastrar!"></a>  
+            <input id="limpar" class="button" type="reset" value="Limpar">
+            <input id="cadastrar" class="button" type="submit" value="Cadastrar!"></a>  
     </form>
             
           <p>Campo obrigatório *</p>
@@ -82,5 +84,6 @@
           alt="logotipo do Twitter"
           title="Twitter">
       </footer>
+      
 </body>
 </html>

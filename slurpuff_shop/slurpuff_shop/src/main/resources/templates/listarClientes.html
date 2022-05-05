@@ -40,18 +40,29 @@
 
         <tbody>
             <tr th:each="umCliente: ${todosOsClientes}">
+
                 <td th:text="${umCliente.codigoCliente}"></td>
+
                 <td th:text="${umCliente.nome}"></td>
+                
+                <td th:text="${umCliente.cidade}"></td>
+
+                <td th:text="${umCliente.cep}"></td>
+                
+                <td th:text="${#temporals.format(umCliente.dataNascimento, 'dd/MM/yyyy')}"></td>
+
                 <td>
                     <a th:href="'mailto:'+${umCliente.email}" th:text="${umCliente.email}"></a>
                 </td>
-                    <td th:text="${#temporals.format(umCliente.dataNascimento, 'dd/MM/yyyy')}"></td>
-                    <td th:text="${umCliente.genero}"></td>
+
+                <td th:text="${umCliente.genero}"></td>
+
                 <td>
-                    <a th:href="@{/editar/{id}(id=${umCliente.codigoCliente})}">Editar</a>
+                    <a th:href="@{/editar/{codigoCliente}(codigoCliente=${umCliente.codigoCliente})}">Editar</a>
                 </td>
+
                 <td>
-                    <a th:href="@{/remover/{id}(id=${umCliente.codigoCliente})}">Remover</a>
+                    <a th:href="@{/remover/{codigoCliente}(codigoCliente=${umCliente.codigoCliente})}">Remover</a>
                 </td>
 
         </tbody>

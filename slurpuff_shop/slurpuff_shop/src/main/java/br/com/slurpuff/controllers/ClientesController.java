@@ -43,7 +43,7 @@ public class ClientesController{
 
     @GetMapping("/cadastro")
     public ModelAndView formAdicionarCliente(){
-        ModelAndView modelAndView = new ModelAndView("adicionarCliente");
+        ModelAndView modelAndView = new ModelAndView("cadastro");
         modelAndView.addObject(new Cliente());
         return modelAndView;
     }
@@ -54,7 +54,7 @@ public class ClientesController{
     }
 
     @GetMapping("/editar/{codigoCliente}")
-    public ModelAndView formEditarPessoa(@PathVariable("codigoCliente") long codigoCliente){
+    public ModelAndView formEditarCliente(@PathVariable("codigoCliente") long codigoCliente){
         Cliente cliente = clienteRepo.findById(codigoCliente)
         .orElseThrow(() -> new IllegalArgumentException("Código inválido:" + codigoCliente));
 
@@ -64,13 +64,13 @@ public class ClientesController{
     }
 
     @PostMapping("/editar/{codigoCliente}")
-    public ModelAndView editarPessoa(@PathVariable("codigoCliente") long codigoCliente, Cliente cliente){
+    public ModelAndView editarCliente(@PathVariable("codigoCliente") long codigoCliente, Cliente cliente){
         clienteRepo.save(cliente);
         return new ModelAndView("redirect:/listarClientes");
     }
 
     @GetMapping("/remover/{codigoCliente}")
-    public ModelAndView removerPessoa(@PathVariable("codigoCliente") long codigoCliente){
+    public ModelAndView removerCliente(@PathVariable("codigoCliente") long codigoCliente){
         Cliente aRemover = clienteRepo.findById(codigoCliente)
         .orElseThrow(() -> new IllegalArgumentException("Código inválido" + codigoCliente));
 
