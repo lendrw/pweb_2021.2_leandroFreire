@@ -1,0 +1,1 @@
+INSERT INTO clientes (nome, cidade, cep, data_nascimento, email, genero) VALUES ('Hiago Machado', 'Pendências', '59665000', parseDateTime('01/02/1997','dd/MM/yyyy'), 'hiagomach@gmail.com', 'Masculino');

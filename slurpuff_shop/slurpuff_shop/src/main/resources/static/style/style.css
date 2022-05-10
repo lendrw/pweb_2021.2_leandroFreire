@@ -1,96 +1,70 @@
-html, body {
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
+* {
+  font-family: 'Signika Negative', sans-serif;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    background-color: white;
-  }
-  
-  /*Estilo do menu*/
-  
-  ul.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(58, 21, 0);
-    
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li#sobre {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(95, 44, 31);
-  }
-  
-  .ativo {
-    background-color: rgb(255, 96, 122);
-  }
-  
-  /*Responsividade*/
-  
-  @media screen and (max-width: 700px) {
-    body{
-      margin: auto;
-    }
-  
-    ul li, ul li#sobre {
-      float: none;
-    }
-  
-  }
-  
-  div {
-    margin-left: 15px;
-    min-height: 100%;
-    position: relative;
-  }
+.bg-primary-color {
+  background-color: #fff;
+}
 
-/*Estilo do body*/
+.bg-secondary-color {
+  background-color: #ece8e2;
+}
 
-  div.body-content{
-  padding-bottom: 100px;
-  margin-left:25%;
-  padding:1px 16px;
-  height:1000px;
-  }
+.bg-dark-color {
+  background-color: #2c1504;
+}
 
-  #wrapper{
-    min-height: 100%;
-    position: relative;
+.primary-color {
+  color: #2c1504;
+}
 
-    }
+.secondary-color {
+  color: #ffb7ce;
+}
+
+/* NAVBAR */
+#navbar {
+  background-color: #fda8c3;
+}
+
+#navbar a {
+  color: #4b2c17;
+}
+
+#navbar a:hover {
+  color: #CB0065;
+}
+
+#navbar .active {
+  border-bottom: 1px solid #4b2c17;
+}
+
+.navbar-brand {
+  display: flex;
+}
+
+.navbar-brand img {
+  width: 55px;
+}
+
+.navbar-brand span {
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+  padding-top: 0.3em;
+}
+
+#navbar-items .navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#navbar-items .nav-item {
+  margin: 0 1em;
+}
   
-  /*Estilo da imagem*/
-  
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    height: auto;
-  }
-  
-  /*Estilo dos formulários*/
+  /* FORMS */
   
   input {
     margin-bottom: 10px;
@@ -114,13 +88,8 @@ body {
     background-color: rgb(0, 179, 45);
   }
   
-  /*Estilo dos links*/
   
-  a {
-    color: rgb(255, 96, 122);
-  }
-  
-  /*Estilo da tabela*/
+  /* TABLE */
   
   table {
     border-collapse: collapse;
@@ -137,29 +106,96 @@ body {
     background-color: #f2f2f2;
   }
   
-  /*Estilo do rodapé*/
   
-  footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: rgb(255, 96, 122);
-    color: #FFF;
-    width: 100%;
-    height: 150px;    
-    text-align: center;
-    line-height: 100px;
-    width: 100%;
+  /* FOOTER TOP */
+#footer {
+  padding: 3em 2em;
 }
 
-.social-media {
-    width: 40px;
-    display: inline;
-    margin: 15px;
-    padding-top: 35px;
+#footer-top {
+  margin-bottom: 2em;
 }
-  
 
-  
+#footer-top,
+#footer-top i {
+  color: #fff;
+}
 
-    
+#social-icons {
+  text-align: right;
+}
+
+#social-icons i {
+  margin-right: 1em;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+#social-icons i:hover {
+  color: #7a7a7a;
+}
+
+/* FOOTER DETAILS */
+#footer-details {
+  margin-bottom: 3em;
+}
+
+#news-container,
+#contact-container,
+#links-container {
+  padding: 0;
+  border: 0;
+  margin-bottom: 2em;
+}
+
+#footer-details h4 {
+  color: #fff;
+  margin-bottom: 1.5em;
+}
+
+#news-container input {
+  border-radius: 0;
+  border: none;
+}
+
+#links-container li {
+  margin-bottom: 0.5em;
+}
+
+#links-container a {
+  text-decoration: none;
+}
+
+#links-container a:hover {
+  color: #fff;
+}
+
+/* FOOTER BOTTOM */
+#footer-bottom {
+  border-top: 1px solid #ffb7ce;
+  padding-top: 2em;
+}
+
+#footer-bottom p {
+  text-align: center;
+}
+
+#footer-bottom i {
+  color: #CB0065;
+}
+
+@media (min-width: 768px) {
+  #news-container {
+    padding-right: 2em;
+  }
+
+  #contact-container {
+    padding: 0 2em;
+    border-left: 1px solid #ffb7ce;
+    border-right: 1px solid #ffb7ce;
+  }
+
+  #links-container {
+    padding-left: 2em;
+  }
+}
