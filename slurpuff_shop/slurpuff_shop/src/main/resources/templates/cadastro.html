@@ -69,11 +69,8 @@
     </div>
   </div>
 </nav>
-  
-
     
-      <div id="wrapper">
-        <div class="container body-content">
+      <div class="container form">
     
           <h1>Formulário de cadastro:</h1>
     
@@ -86,21 +83,25 @@
           <p>
             Nome completo *: <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required>
           </p>
-    
+
           <p>
-            Cidade *: <input type="text" placeholder="Sua cidade." th:field="*{cidade}" required>
+            Data de nascimento *: <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required> 
+          </p>
+
+          <p>
+            e-Mail *: <input type="email" placeholder="nome@dominio.com" th:field="*{email}" required> 
+          </p>
+
+          <p>
+            Estado *: <input type="select" th:field="*{email}" required> 
+          </p>
+
+          <p>
+            Endereço *: <input type="select" placeholder="Rua XXXXXX." th:field="*{cidade}" required>
           </p>
 
           <p>
             CEP *: <input type="text" placeholder="CEP." th:field="*{cep}" required>
-          </p>
-
-          <p
-          >Data de nascimento *: <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required> 
-        </p>
-    
-          <p>
-            e-Mail *: <input type="email" placeholder="nome@dominio.com" th:field="*{email}" required> 
           </p>
     
           <p>Gênero *:</p>
@@ -117,13 +118,66 @@
             <input type="radio" name="genero" value="Não informar" th:field="*{genero}" required>Não informar
           </p>  
     
-            <input id="limpar" class="button" type="reset" value="Limpar">
-            <input id="cadastrar" class="button" type="submit" value="Cadastrar!"></a>  
-    </form>
-            
-          <p>Campo obrigatório *</p>
-    </div>
+          <p>Endereço</p>
+            <p>Logradouro *:
+                <input type="text" placeholder="Rua, Av, Travessa..."></p>
+            <p>Número *:
+                <input type="number" name="tNum" id="cNum" min="0" max="9999" size="5"></p>
+            <p>Estado *:
+                <select>
+                    <optgroup label="Região Sudeste">
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espírito Santo</option>
+                    </optgroup>
+                    <optgroup label="Região Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="RN">Rio Grande do Nordeste</option>
+                        <option value="CE">Ceará</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="SE">Sergipe</option>
+                    </optgroup>
+                    <optgroup label="Região Norte">
+                        <option value="AC">Acre</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantins</option>
+                    </optgroup>
+                    <optgroup label="Região Centro-Oeste">
+                        <option value="GO">Goiás</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso Do Sul</option>
+                        <option value="DF">Distrito Federal</option>
+                    </optgroup>
 
+                </select></p>
+                <p>
+                  Cidade *: <input type="text" placeholder="Sua cidade." th:field="*{cidade}" required>
+                </p>
+
+                <p>Campo obrigatório *</p>
+                
+            <input id="reset" class="button" type="reset" value="Limpar">
+            <input id="submit" class="button" type="submit" value="Cadastrar!">
+
+              </form>
+            
+              
+    
+        </div>
 
    
       <!-- FOOTER -->
