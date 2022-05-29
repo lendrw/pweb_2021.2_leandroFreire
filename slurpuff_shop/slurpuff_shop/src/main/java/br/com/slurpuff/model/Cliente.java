@@ -24,14 +24,15 @@ import lombok.NoArgsConstructor;
 
 public class Cliente implements Serializable{
     
-    private static final long serialVersionUID = -4665511553732190877L;
-    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long codigoCliente;
 
     private String nome;
     private String cidade;
+    private String estado;
+    private String logradouro;
+    private String numeroCasa;
     private String cep;
     private String email;
     private String genero;
@@ -40,6 +41,31 @@ public class Cliente implements Serializable{
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dataNascimento;
 
+
+    public String getEstado() {
+        return this.estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getLogradouro() {
+        return this.logradouro;
+    }
+
+    public void setLogradouro(String logradouro) {
+        this.logradouro = logradouro;
+    }
+
+    public String getNumeroCasa() {
+        return this.numeroCasa;
+    }
+
+    public void setNumeroCasa(String numeroCasa) {
+        this.numeroCasa = numeroCasa;
+    }
+    
 
     public long getCodigoCliente() {
         return this.codigoCliente;

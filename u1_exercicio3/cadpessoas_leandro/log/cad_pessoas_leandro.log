@@ -24,3 +24,69 @@
 2022-05-03 10:42:13.610  WARN 47213 --- [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
 2022-05-03 10:42:13.611  INFO 47213 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-03 10:42:13.642  INFO 47213 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-14 11:04:09.709  INFO 5660 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Starting CadpessoasLeandroApplication using Java 11.0.14.1 on DESKTOP-UPCDEDI with PID 5660 (C:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro\target\classes started by Micro in c:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro)
+2022-05-14 11:04:09.711  INFO 5660 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 11:04:09.799  INFO 5660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 11:04:09.800  INFO 5660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 11:04:10.677  INFO 5660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 11:04:10.745  INFO 5660 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interfaces.
+2022-05-14 11:04:11.626  INFO 5660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 11:04:11.645  INFO 5660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 11:04:11.646  INFO 5660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-14 11:04:11.809  INFO 5660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 11:04:11.810  INFO 5660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2010 ms
+2022-05-14 11:04:11.887  INFO 5660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 11:04:12.301  INFO 5660 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 11:04:12.323  INFO 5660 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-05-14 11:04:13.974  INFO 5660 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 11:04:14.836  INFO 5660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 11:04:15.094  INFO 5660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 11:04:15.149  INFO 5660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 11:04:15.164  INFO 5660 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Started CadpessoasLeandroApplication in 6.009 seconds (JVM running for 7.137)
+2022-05-14 11:04:40.290  INFO 5660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 11:04:40.291  INFO 5660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 11:04:40.294  INFO 5660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-05-14 20:56:38.122  INFO 5344 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Starting CadpessoasLeandroApplication using Java 1.8.0_321 on DESKTOP-UPCDEDI with PID 5344 (C:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro\target\classes started by Micro in c:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro)
+2022-05-14 20:56:38.128  INFO 5344 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 20:56:38.239  INFO 5344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 20:56:38.240  INFO 5344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 20:56:39.820  INFO 5344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 20:56:39.932  INFO 5344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interfaces.
+2022-05-14 20:56:41.265  INFO 5344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 20:56:41.301  INFO 5344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 20:56:41.301  INFO 5344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-14 20:56:41.453  INFO 5344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 20:56:41.454  INFO 5344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3201 ms
+2022-05-14 20:56:41.521  INFO 5344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 20:56:41.804  INFO 5344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 20:56:41.816  INFO 5344 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-05-14 20:56:43.978  INFO 5344 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 20:56:45.011  INFO 5344 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 20:56:45.475  INFO 5344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 20:56:45.560  INFO 5344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 20:56:45.582  INFO 5344 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Started CadpessoasLeandroApplication in 8.339 seconds (JVM running for 9.747)
+2022-05-14 20:57:37.296  INFO 5344 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 20:57:37.299  INFO 5344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 20:57:37.302  INFO 5344 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-05-14 21:34:56.079  INFO 7584 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Starting CadpessoasLeandroApplication using Java 1.8.0_321 on DESKTOP-UPCDEDI with PID 7584 (C:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro\target\classes started by Micro in c:\Users\Micro\Documents\GitHub\u1_exercicio3\cadpessoas_leandro)
+2022-05-14 21:34:56.081  INFO 7584 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 21:34:56.146  INFO 7584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 21:34:56.146  INFO 7584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 21:34:57.027  INFO 7584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 21:34:57.090  INFO 7584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2022-05-14 21:34:57.925  INFO 7584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 21:34:57.945  INFO 7584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 21:34:57.946  INFO 7584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-05-14 21:34:58.052  INFO 7584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 21:34:58.053  INFO 7584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1906 ms
+2022-05-14 21:34:58.095  INFO 7584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 21:34:58.367  INFO 7584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 21:34:58.380  INFO 7584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-05-14 21:34:59.707  INFO 7584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 21:35:00.409  INFO 7584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 21:35:00.666  INFO 7584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 21:35:00.715  INFO 7584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 21:35:00.727  INFO 7584 --- [restartedMain] b.c.l.c.CadpessoasLeandroApplication     : Started CadpessoasLeandroApplication in 5.172 seconds (JVM running for 6.018)
+2022-05-14 21:35:02.952  INFO 7584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 21:35:02.952  INFO 7584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 21:35:02.954  INFO 7584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

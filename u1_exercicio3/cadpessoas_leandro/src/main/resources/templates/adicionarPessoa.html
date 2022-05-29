@@ -28,28 +28,14 @@
   method="post"
   th:object="${pessoa}"
   th:action="@{/adicionarPessoa}">
-
-      <p>    </ul>
-
-        <div style="margin-left:25%;padding:1px 16px;height:1000px;">
-              <h1>Formulário para cadastro de pessoas:</h1>
         
-              
-        <form 
-          method="post"
-          th:object="${pessoa}"
-          th:action="@{/adicionarPessoa}">
-        
-              <p>
-                Nome completo *: <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required>
-              </p>
-        
+      <p>
         Nome completo *: <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required>
       </p>
 
       <p
       >Data de nascimento *: <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required> 
-    </p>
+      </p>
 
       <p>
         e-Mail *: <input type="email" placeholder="nome@dominio.com" th:field="*{email}" required> 

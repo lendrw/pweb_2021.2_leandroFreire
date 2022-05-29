@@ -63,11 +63,13 @@
 #navbar-items .nav-item {
   margin: 0 1em;
 }
+
   
   /* FORM*/
   
   .form {
     padding-top: 10em;
+    padding-bottom: 10em;
   }
 
   input {
@@ -164,8 +166,6 @@
 
 
 
-
-
 /* FOOTER BOTTOM */
 #footer-bottom {
   border-top: 1px solid #ffb7ce;
@@ -193,8 +193,6 @@
 
   #lorem-container {
     padding-left: 2em;
-    padding-right: 2em;
-    border-right: 1px solid #ffb7ce;
   }
 }
 

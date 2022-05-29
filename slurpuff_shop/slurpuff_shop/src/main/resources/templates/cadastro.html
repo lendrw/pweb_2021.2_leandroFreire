@@ -93,14 +93,6 @@
           </p>
 
           <p>
-            Estado *: <input type="select" th:field="*{email}" required> 
-          </p>
-
-          <p>
-            Endereço *: <input type="select" placeholder="Rua XXXXXX." th:field="*{cidade}" required>
-          </p>
-
-          <p>
             CEP *: <input type="text" placeholder="CEP." th:field="*{cep}" required>
           </p>
     
@@ -122,9 +114,9 @@
             <p>Logradouro *:
                 <input type="text" placeholder="Rua, Av, Travessa..."></p>
             <p>Número *:
-                <input type="number" name="tNum" id="cNum" min="0" max="9999" size="5"></p>
+                <input type="number" name="tNum" id="cNum" min="0" max="9999" size="5" th:field="*{numeroCasa}"></p>
             <p>Estado *:
-                <select>
+                <select th:field="*{estado}">
                     <optgroup label="Região Sudeste">
                         <option value="RJ">Rio de Janeiro</option>
                         <option value="SP">São Paulo</option>
@@ -224,7 +216,7 @@
             <p class="secondary-color">(84)9999-9999</p>
             <p class="secondary-color">contato@gmail.com</p>
           </div>
-          <div class="col-12 col-md-4" id="links-container">
+          <div class="col-12 col-md-4" id="lorem-container">
             <div class="row">
               <h4>Lorem ipsum</h4>
               <p class="secondary-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in tenetur quidem, rem consectetur incidunt! Iste ullam voluptatem similique quidem asperiores illo mollitia, exercitationem voluptatibus fugit velit, accusamus maxime nulla.</p>
