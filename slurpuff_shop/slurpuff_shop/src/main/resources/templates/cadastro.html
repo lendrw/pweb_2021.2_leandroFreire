@@ -112,7 +112,7 @@
     
           <p>Endereço</p>
             <p>Logradouro *:
-                <input type="text" placeholder="Rua, Av, Travessa..."></p>
+                <input type="text" placeholder="Rua, Av, Travessa..." th:field="*{logradouro}" required></p>
             <p>Número *:
                 <input type="number" name="tNum" id="cNum" min="0" max="9999" size="5" th:field="*{numeroCasa}"></p>
             <p>Estado *:
@@ -131,7 +131,7 @@
                     <optgroup label="Região Nordeste">
                         <option value="AL">Alagoas</option>
                         <option value="BA">Bahia</option>
-                        <option value="RN">Rio Grande do Nordeste</option>
+                        <option value="RN">Rio Grande do Norte</option>
                         <option value="CE">Ceará</option>
                         <option value="MA">Maranhão</option>
                         <option value="PB">Paraíba</option>
