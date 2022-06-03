@@ -77,3 +77,874 @@
 2022-06-03 01:10:32.867  INFO 6552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2022-06-03 01:10:32.908  INFO 6552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2022-06-03 01:10:32.926  INFO 6552 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 5.703 seconds (JVM running for 6.319)
+2022-06-03 01:26:56.315  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:26:56.318  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:26:56.431  INFO 11072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-03 01:26:56.431  INFO 11072 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-03 01:26:57.415  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:26:57.530  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:26:59.078  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:26:59.096  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:26:59.098  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:26:59.306  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:26:59.307  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2875 ms
+2022-06-03 01:26:59.400  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-03 01:26:59.724  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-03 01:26:59.740  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:27:01.337  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:27:02.098  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:27:02.392  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:27:02.426  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:27:02.445  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 6.729 seconds (JVM running for 7.351)
+2022-06-03 01:27:09.866  INFO 11072 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-03 01:27:09.869  INFO 11072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-03 01:27:09.871  INFO 11072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-03 01:27:14.597  WARN 11072 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:28:06.680  INFO 11072 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:06.908  WARN 11072 --- [Thread-6] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:06.910  INFO 11072 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-03 01:28:06.920  INFO 11072 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-03 01:28:07.070  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:07.071  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:07.537  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:07.556  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:07.845  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:07.845  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:07.853  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:07.886  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:07.886  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 811 ms
+2022-06-03 01:28:07.917  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-06-03 01:28:07.917  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-06-03 01:28:07.917  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:08.072  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:08.273  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:08.395  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:08.404  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:08.409  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 1.427 seconds (JVM running for 73.304)
+2022-06-03 01:28:08.411  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:25.340  INFO 11072 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:25.557  WARN 11072 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:25.558  INFO 11072 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-06-03 01:28:25.564  INFO 11072 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-06-03 01:28:25.685  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:25.686  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:26.124  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:26.144  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:26.320  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:26.321  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:26.322  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:26.366  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:26.366  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 676 ms
+2022-06-03 01:28:26.382  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-06-03 01:28:26.399  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-06-03 01:28:26.403  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:26.526  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:26.691  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:26.797  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:26.834  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:26.835  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 1.212 seconds (JVM running for 91.735)
+2022-06-03 01:28:26.843  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:30.506  INFO 11072 --- [Thread-12] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:30.719  WARN 11072 --- [Thread-12] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:30.722  INFO 11072 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-06-03 01:28:30.730  INFO 11072 --- [Thread-12] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-06-03 01:28:30.849  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:30.850  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:31.582  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:31.624  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:32.113  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:32.114  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:32.114  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:32.192  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:32.192  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1339 ms
+2022-06-03 01:28:32.205  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-06-03 01:28:32.231  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-06-03 01:28:32.232  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:32.442  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:32.796  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:32.947  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:33.020  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:33.026  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 2.244 seconds (JVM running for 97.922)
+2022-06-03 01:28:33.028  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:34.614  INFO 11072 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:34.823  WARN 11072 --- [Thread-16] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:34.825  INFO 11072 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-06-03 01:28:34.834  INFO 11072 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-06-03 01:28:34.950  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:34.953  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:35.203  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:35.203  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:35.304  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:35.309  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:35.310  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:35.336  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:35.336  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 380 ms
+2022-06-03 01:28:35.347  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-06-03 01:28:35.350  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-06-03 01:28:35.351  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:35.421  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:35.535  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:35.586  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:35.595  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:35.607  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.712 seconds (JVM running for 100.503)
+2022-06-03 01:28:35.609  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:41.312  INFO 11072 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:41.528  WARN 11072 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:41.530  INFO 11072 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-06-03 01:28:41.537  INFO 11072 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-06-03 01:28:41.648  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:41.650  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:42.024  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:42.057  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:42.157  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:42.157  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:42.158  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:42.365  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:42.365  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 709 ms
+2022-06-03 01:28:42.376  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-06-03 01:28:42.385  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-06-03 01:28:42.387  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:42.478  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:42.659  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:42.808  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:42.825  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:42.846  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 1.251 seconds (JVM running for 107.742)
+2022-06-03 01:28:42.849  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:49.813  INFO 11072 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:50.052  WARN 11072 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:50.053  INFO 11072 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-06-03 01:28:50.059  INFO 11072 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-06-03 01:28:50.521  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:50.522  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:50.797  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:50.815  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:51.115  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:51.117  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:51.120  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:51.162  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:51.162  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 637 ms
+2022-06-03 01:28:51.231  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-06-03 01:28:51.236  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-06-03 01:28:51.237  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:51.768  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:52.074  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:52.190  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:52.196  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:52.199  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 1.726 seconds (JVM running for 117.095)
+2022-06-03 01:28:52.200  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:54.371  INFO 11072 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:54.583  WARN 11072 --- [Thread-28] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:54.584  INFO 11072 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-06-03 01:28:54.590  INFO 11072 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-06-03 01:28:54.782  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:54.785  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:55.896  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:55.929  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:56.130  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:56.133  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:56.134  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:56.180  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:56.182  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1387 ms
+2022-06-03 01:28:56.198  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-06-03 01:28:56.200  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-06-03 01:28:56.200  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:56.344  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:57.310  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:28:57.428  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:28:57.434  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:28:57.438  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 2.78 seconds (JVM running for 122.334)
+2022-06-03 01:28:57.439  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:28:59.170  INFO 11072 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:28:59.377  WARN 11072 --- [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:28:59.379  INFO 11072 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-06-03 01:28:59.382  INFO 11072 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-06-03 01:28:59.473  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:28:59.473  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:28:59.725  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:28:59.734  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:28:59.823  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:28:59.824  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:28:59.824  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:28:59.847  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:28:59.847  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2022-06-03 01:28:59.861  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-06-03 01:28:59.863  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-06-03 01:28:59.864  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:28:59.925  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:00.016  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:00.051  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:00.058  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:00.063  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.625 seconds (JVM running for 124.959)
+2022-06-03 01:29:00.065  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:02.696  INFO 11072 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:02.901  WARN 11072 --- [Thread-36] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:02.903  INFO 11072 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-06-03 01:29:02.907  INFO 11072 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-06-03 01:29:03.014  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:03.016  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:03.444  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:03.482  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:03.600  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:03.602  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:03.603  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:03.632  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:03.633  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 613 ms
+2022-06-03 01:29:03.643  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-06-03 01:29:03.646  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-06-03 01:29:03.646  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:03.706  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:03.822  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:03.878  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:03.883  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:03.886  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.92 seconds (JVM running for 128.781)
+2022-06-03 01:29:03.887  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:09.657  INFO 11072 --- [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:09.865  WARN 11072 --- [Thread-40] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:09.866  INFO 11072 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-06-03 01:29:09.871  INFO 11072 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2022-06-03 01:29:10.002  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:10.004  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:10.410  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:10.423  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:10.503  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:10.504  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:10.504  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:10.526  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:10.526  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 518 ms
+2022-06-03 01:29:10.538  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2022-06-03 01:29:10.542  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2022-06-03 01:29:10.542  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:10.656  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:10.775  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:10.846  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:10.898  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:10.902  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.962 seconds (JVM running for 135.798)
+2022-06-03 01:29:10.905  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:12.639  INFO 11072 --- [Thread-44] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:12.853  WARN 11072 --- [Thread-44] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:12.855  INFO 11072 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2022-06-03 01:29:12.859  INFO 11072 --- [Thread-44] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2022-06-03 01:29:12.962  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:12.963  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:13.188  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:13.207  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:13.310  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:13.323  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:13.323  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:13.383  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:13.384  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 418 ms
+2022-06-03 01:29:13.432  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2022-06-03 01:29:13.439  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2022-06-03 01:29:13.440  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:13.605  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:13.825  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:13.958  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:13.965  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:13.968  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 1.049 seconds (JVM running for 138.865)
+2022-06-03 01:29:13.972  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:16.174  INFO 11072 --- [Thread-48] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:16.383  WARN 11072 --- [Thread-48] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:16.384  INFO 11072 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2022-06-03 01:29:16.396  INFO 11072 --- [Thread-48] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2022-06-03 01:29:16.490  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:16.491  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:16.668  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:16.680  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:16.769  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:16.770  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:16.771  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:16.792  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:16.792  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 298 ms
+2022-06-03 01:29:16.800  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2022-06-03 01:29:16.803  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2022-06-03 01:29:16.803  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:16.852  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:16.951  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:16.984  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:16.989  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:16.991  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.532 seconds (JVM running for 141.887)
+2022-06-03 01:29:16.992  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:49.213  INFO 11072 --- [Thread-52] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:49.424  WARN 11072 --- [Thread-52] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:49.425  INFO 11072 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2022-06-03 01:29:49.436  INFO 11072 --- [Thread-52] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2022-06-03 01:29:49.540  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:49.541  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:49.728  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:49.739  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:49.825  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:49.827  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:49.831  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:49.866  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:49.866  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 322 ms
+2022-06-03 01:29:49.876  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Starting...
+2022-06-03 01:29:49.879  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Start completed.
+2022-06-03 01:29:49.881  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:49.976  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:50.072  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:50.157  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:50.162  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:50.196  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.69 seconds (JVM running for 175.092)
+2022-06-03 01:29:50.198  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:52.824  INFO 11072 --- [Thread-56] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:53.033  WARN 11072 --- [Thread-56] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:53.034  INFO 11072 --- [Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown initiated...
+2022-06-03 01:29:53.038  INFO 11072 --- [Thread-56] com.zaxxer.hikari.HikariDataSource       : HikariPool-14 - Shutdown completed.
+2022-06-03 01:29:53.155  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:53.155  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:53.407  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:53.423  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:53.556  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:53.557  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:53.558  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:53.579  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:53.579  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 421 ms
+2022-06-03 01:29:53.588  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Starting...
+2022-06-03 01:29:53.591  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Start completed.
+2022-06-03 01:29:53.591  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:53.664  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:53.830  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:29:53.868  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:29:53.868  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:29:53.881  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.772 seconds (JVM running for 178.776)
+2022-06-03 01:29:53.931  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:29:56.534  INFO 11072 --- [Thread-60] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:56.747  WARN 11072 --- [Thread-60] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:56.748  INFO 11072 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown initiated...
+2022-06-03 01:29:56.759  INFO 11072 --- [Thread-60] com.zaxxer.hikari.HikariDataSource       : HikariPool-15 - Shutdown completed.
+2022-06-03 01:29:56.864  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:29:56.864  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:29:57.043  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:29:57.059  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:29:57.166  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:29:57.167  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:29:57.168  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:29:57.192  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:29:57.193  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2022-06-03 01:29:57.205  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Starting...
+2022-06-03 01:29:57.208  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Start completed.
+2022-06-03 01:29:57.209  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:29:57.297  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:57.361  WARN 11072 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+2022-06-03 01:29:57.363  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:29:57.569  WARN 11072 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:29:57.569  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
+2022-06-03 01:29:57.577  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2022-06-03 01:29:57.578  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-03 01:29:57.583  INFO 11072 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-03 01:29:57.645 ERROR 11072 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at br.com.slurpuff.SlurpuffShopApplication.main(SlurpuffShopApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at br.com.slurpuff.controllers.ClientesController.<init>(ClientesController.java:59) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 26 common frames omitted
+
+2022-06-03 01:30:00.293  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:00.293  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:00.469  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:00.479  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:00.543  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:00.547  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:00.548  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:00.595  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:00.596  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
+2022-06-03 01:30:00.606  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2022-06-03 01:30:00.611  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2022-06-03 01:30:00.611  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:00.661  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:00.810  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:00.856  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:00.875  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:00.877  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.631 seconds (JVM running for 185.773)
+2022-06-03 01:30:00.878  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:30:07.581  INFO 11072 --- [Thread-64] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:07.792  WARN 11072 --- [Thread-64] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:07.793  INFO 11072 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2022-06-03 01:30:07.794  INFO 11072 --- [Thread-64] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2022-06-03 01:30:07.966  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:07.967  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:08.169  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:08.184  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:08.248  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:08.288  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:08.293  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:08.316  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:08.317  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 347 ms
+2022-06-03 01:30:08.327  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Starting...
+2022-06-03 01:30:08.339  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Start completed.
+2022-06-03 01:30:08.340  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:08.483  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:08.639  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:08.689  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:08.694  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:08.697  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.787 seconds (JVM running for 193.592)
+2022-06-03 01:30:08.698  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:30:11.333  INFO 11072 --- [Thread-71] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:11.537  WARN 11072 --- [Thread-71] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:11.538  INFO 11072 --- [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown initiated...
+2022-06-03 01:30:11.544  INFO 11072 --- [Thread-71] com.zaxxer.hikari.HikariDataSource       : HikariPool-18 - Shutdown completed.
+2022-06-03 01:30:11.645  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:11.645  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:11.812  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:11.822  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:11.882  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:11.883  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:11.883  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:11.910  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:11.910  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 262 ms
+2022-06-03 01:30:11.921  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Starting...
+2022-06-03 01:30:11.925  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Start completed.
+2022-06-03 01:30:11.926  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:11.985  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:12.070  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:12.103  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:12.109  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:12.112  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.496 seconds (JVM running for 197.007)
+2022-06-03 01:30:12.112  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:30:20.868  INFO 11072 --- [Thread-75] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:21.080  WARN 11072 --- [Thread-75] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:21.081  INFO 11072 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown initiated...
+2022-06-03 01:30:21.085  INFO 11072 --- [Thread-75] com.zaxxer.hikari.HikariDataSource       : HikariPool-19 - Shutdown completed.
+2022-06-03 01:30:21.191  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:21.192  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:21.404  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:21.412  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:21.490  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:21.490  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:21.491  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:21.517  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:21.518  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2022-06-03 01:30:21.532  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Starting...
+2022-06-03 01:30:21.536  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Start completed.
+2022-06-03 01:30:21.536  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:21.606  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:21.758  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:21.808  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:21.815  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:21.825  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.672 seconds (JVM running for 206.721)
+2022-06-03 01:30:21.827  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:30:23.443  INFO 11072 --- [Thread-79] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:23.659  WARN 11072 --- [Thread-79] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:23.660  INFO 11072 --- [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown initiated...
+2022-06-03 01:30:23.662  INFO 11072 --- [Thread-79] com.zaxxer.hikari.HikariDataSource       : HikariPool-20 - Shutdown completed.
+2022-06-03 01:30:23.767  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:23.768  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:23.942  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:23.951  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:24.024  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:24.025  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:24.025  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:24.104  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:24.104  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2022-06-03 01:30:24.112  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Starting...
+2022-06-03 01:30:24.114  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Start completed.
+2022-06-03 01:30:24.115  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:24.226  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:24.325  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:24.357  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:24.367  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:24.369  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.634 seconds (JVM running for 209.265)
+2022-06-03 01:30:24.371  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:30:28.018  INFO 11072 --- [Thread-83] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:28.223  WARN 11072 --- [Thread-83] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:28.224  INFO 11072 --- [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown initiated...
+2022-06-03 01:30:28.225  INFO 11072 --- [Thread-83] com.zaxxer.hikari.HikariDataSource       : HikariPool-21 - Shutdown completed.
+2022-06-03 01:30:28.342  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:28.343  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:28.555  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:28.563  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:28.602  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:28.618  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:28.618  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:28.639  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:28.640  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 294 ms
+2022-06-03 01:30:28.647  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Starting...
+2022-06-03 01:30:28.650  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Start completed.
+2022-06-03 01:30:28.650  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:28.696  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:28.745  WARN 11072 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+2022-06-03 01:30:28.747  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:28.964  WARN 11072 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:30:28.965  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown initiated...
+2022-06-03 01:30:29.020  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-22 - Shutdown completed.
+2022-06-03 01:30:29.020  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-03 01:30:29.024  INFO 11072 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-03 01:30:29.029 ERROR 11072 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at br.com.slurpuff.SlurpuffShopApplication.main(SlurpuffShopApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at br.com.slurpuff.controllers.ClientesController.<init>(ClientesController.java:75) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 26 common frames omitted
+
+2022-06-03 01:30:31.561  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:30:31.561  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:30:31.800  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:30:31.809  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:30:31.877  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:30:31.877  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:30:31.878  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:30:31.899  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:30:31.899  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2022-06-03 01:30:31.908  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Starting...
+2022-06-03 01:30:31.910  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Start completed.
+2022-06-03 01:30:31.911  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:30:31.968  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:30:32.057  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:30:32.083  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:30:32.092  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:30:32.095  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.564 seconds (JVM running for 216.99)
+2022-06-03 01:30:32.096  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:31:13.814  INFO 11072 --- [Thread-87] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:14.027  WARN 11072 --- [Thread-87] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:31:14.029  INFO 11072 --- [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown initiated...
+2022-06-03 01:31:14.034  INFO 11072 --- [Thread-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-23 - Shutdown completed.
+2022-06-03 01:31:14.141  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:31:14.143  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:31:14.486  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:31:14.506  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:31:14.598  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:31:14.600  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:31:14.602  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:31:14.650  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:31:14.651  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 484 ms
+2022-06-03 01:31:14.662  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Starting...
+2022-06-03 01:31:14.664  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Start completed.
+2022-06-03 01:31:14.664  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:31:14.944  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:15.003  WARN 11072 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+2022-06-03 01:31:15.004  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:15.215  WARN 11072 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:31:15.215  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown initiated...
+2022-06-03 01:31:15.216  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-24 - Shutdown completed.
+2022-06-03 01:31:15.217  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-03 01:31:15.220  INFO 11072 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-03 01:31:15.226 ERROR 11072 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientesController' defined in file [C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes\br\com\slurpuff\controllers\ClientesController.class]: Bean instantiation via constructor failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:315) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:296) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1372) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at br.com.slurpuff.SlurpuffShopApplication.main(SlurpuffShopApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [br.com.slurpuff.controllers.ClientesController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:117) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 24 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problem: 
+	codigoCliente cannot be resolved to a variable
+
+	at br.com.slurpuff.controllers.ClientesController.<init>(ClientesController.java:75) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:na]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) ~[na:na]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:211) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 26 common frames omitted
+
+2022-06-03 01:31:18.810  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:31:18.810  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:31:19.051  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:31:19.068  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:31:19.148  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:31:19.149  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:31:19.151  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:31:19.175  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:31:19.175  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 363 ms
+2022-06-03 01:31:19.184  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Starting...
+2022-06-03 01:31:19.187  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Start completed.
+2022-06-03 01:31:19.189  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:31:19.249  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:19.380  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:31:19.412  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:31:19.417  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:31:19.420  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.639 seconds (JVM running for 264.316)
+2022-06-03 01:31:19.423  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:31:35.382  INFO 11072 --- [Thread-94] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:35.590  WARN 11072 --- [Thread-94] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 01:31:35.591  INFO 11072 --- [Thread-94] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown initiated...
+2022-06-03 01:31:35.595  INFO 11072 --- [Thread-94] com.zaxxer.hikari.HikariDataSource       : HikariPool-25 - Shutdown completed.
+2022-06-03 01:31:35.710  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 01:31:35.710  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 01:31:36.027  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 01:31:36.049  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2022-06-03 01:31:36.132  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 01:31:36.134  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 01:31:36.134  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 01:31:36.159  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 01:31:36.159  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 446 ms
+2022-06-03 01:31:36.175  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Starting...
+2022-06-03 01:31:36.180  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Start completed.
+2022-06-03 01:31:36.181  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 01:31:36.265  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 01:31:36.398  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 01:31:36.436  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 01:31:36.444  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 01:31:36.449  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.771 seconds (JVM running for 281.344)
+2022-06-03 01:31:36.451  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 01:32:17.637  INFO 11072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-03 01:32:17.638  INFO 11072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-03 01:32:17.639  INFO 11072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-03 01:32:17.642  WARN 11072 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:08.073  WARN 11072 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:42.731  WARN 11072 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:44.990  WARN 11072 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:45.600  WARN 11072 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:45.987  WARN 11072 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 01:33:46.159  WARN 11072 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "{codigoCliente}"]
+2022-06-03 02:24:28.412  WARN 11072 --- [HikariPool-26 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-26 - Thread starvation or clock leap detected (housekeeper delta=12m21s466ms603µs).
+2022-06-03 02:35:53.131  WARN 11072 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "style.css"]
+2022-06-03 02:35:53.998  WARN 11072 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "style.css"]
+2022-06-03 02:35:54.247  WARN 11072 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "style.css"]
+2022-06-03 02:44:01.847  INFO 11072 --- [Thread-101] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:02.064  WARN 11072 --- [Thread-101] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 02:44:02.064  INFO 11072 --- [Thread-101] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown initiated...
+2022-06-03 02:44:02.068  INFO 11072 --- [Thread-101] com.zaxxer.hikari.HikariDataSource       : HikariPool-26 - Shutdown completed.
+2022-06-03 02:44:02.192  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 02:44:02.192  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 02:44:02.408  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 02:44:02.421  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-06-03 02:44:02.533  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 02:44:02.534  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 02:44:02.535  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 02:44:02.562  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 02:44:02.562  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 366 ms
+2022-06-03 02:44:02.573  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Starting...
+2022-06-03 02:44:02.576  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Start completed.
+2022-06-03 02:44:02.577  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 02:44:02.650  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:02.847  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 02:44:02.901  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 02:44:02.907  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 02:44:02.910  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.765 seconds (JVM running for 4627.813)
+2022-06-03 02:44:02.911  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 02:44:08.651  INFO 11072 --- [Thread-105] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:08.863  WARN 11072 --- [Thread-105] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 02:44:08.865  INFO 11072 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2022-06-03 02:44:08.869  INFO 11072 --- [Thread-105] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2022-06-03 02:44:09.001  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 02:44:09.002  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 02:44:09.182  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 02:44:09.190  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 02:44:09.254  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 02:44:09.255  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 02:44:09.255  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 02:44:09.280  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 02:44:09.281  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 268 ms
+2022-06-03 02:44:09.291  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2022-06-03 02:44:09.299  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2022-06-03 02:44:09.299  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 02:44:09.361  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:09.459  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 02:44:09.505  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 02:44:09.511  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 02:44:09.514  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.547 seconds (JVM running for 4634.417)
+2022-06-03 02:44:09.515  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 02:44:30.826  INFO 11072 --- [Thread-109] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:31.032  WARN 11072 --- [Thread-109] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 02:44:31.033  INFO 11072 --- [Thread-109] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2022-06-03 02:44:31.037  INFO 11072 --- [Thread-109] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2022-06-03 02:44:31.139  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11072 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 02:44:31.139  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 02:44:31.334  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 02:44:31.342  INFO 11072 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interfaces.
+2022-06-03 02:44:31.398  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 02:44:31.399  INFO 11072 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 02:44:31.399  INFO 11072 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 02:44:31.420  INFO 11072 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-06-03 02:44:31.421  INFO 11072 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 279 ms
+2022-06-03 02:44:31.429  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2022-06-03 02:44:31.431  INFO 11072 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2022-06-03 02:44:31.432  INFO 11072 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 02:44:31.481  INFO 11072 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 02:44:31.564  INFO 11072 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 02:44:31.596  INFO 11072 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 02:44:31.601  INFO 11072 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 02:44:31.606  INFO 11072 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 0.5 seconds (JVM running for 4656.509)
+2022-06-03 02:44:31.607  INFO 11072 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-06-03 03:06:39.921  INFO 11072 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-03 03:06:39.923  INFO 11072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-03 03:06:39.925  INFO 11072 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-06-03 03:13:32.054  WARN 11072 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "style.css"]
+2022-06-03 03:13:32.876  WARN 11072 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'long'; nested exception is java.lang.NumberFormatException: For input string: "style.css"]
+2022-06-03 03:19:48.827  INFO 11404 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 11404 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 03:19:48.829  INFO 11404 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 03:19:48.953  INFO 11404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-03 03:19:48.953  INFO 11404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-03 03:19:50.278  INFO 11404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 03:19:50.363  INFO 11404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interfaces.
+2022-06-03 03:19:51.552  INFO 11404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 03:19:51.570  INFO 11404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 03:19:51.570  INFO 11404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 03:19:51.705  INFO 11404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 03:19:51.705  INFO 11404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2751 ms
+2022-06-03 03:19:51.767  INFO 11404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-03 03:19:52.014  INFO 11404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-03 03:19:52.032  INFO 11404 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 03:19:53.514  INFO 11404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 03:19:54.223  INFO 11404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 03:19:54.571  WARN 11404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-06-03 03:19:54.587  WARN 11404 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-03 03:19:54.602  INFO 11404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 03:19:54.805  WARN 11404 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-06-03 03:19:54.807  INFO 11404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-03 03:19:54.815  INFO 11404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-03 03:19:54.818  INFO 11404 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-03 03:19:54.833  INFO 11404 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-03 03:19:54.886 ERROR 11404 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-03 03:20:16.544  INFO 12428 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Starting SlurpuffShopApplication using Java 11.0.15 on DESKTOP-UPCDEDI with PID 12428 (C:\Users\Micro\Documents\GitHub\slurpuff_shop\slurpuff_shop\target\classes started by Micro in C:\Users\Micro\Documents\GitHub)
+2022-06-03 03:20:16.547  INFO 12428 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-06-03 03:20:16.647  INFO 12428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-03 03:20:16.647  INFO 12428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-03 03:20:17.710  INFO 12428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-03 03:20:17.812  INFO 12428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interfaces.
+2022-06-03 03:20:19.041  INFO 12428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-03 03:20:19.059  INFO 12428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-03 03:20:19.061  INFO 12428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-06-03 03:20:19.246  INFO 12428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-03 03:20:19.247  INFO 12428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2599 ms
+2022-06-03 03:20:19.303  INFO 12428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-03 03:20:19.696  INFO 12428 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-03 03:20:19.714  INFO 12428 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:slurpuff'
+2022-06-03 03:20:21.832  INFO 12428 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-03 03:20:22.513  INFO 12428 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-06-03 03:20:22.789  INFO 12428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-03 03:20:22.826  INFO 12428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-03 03:20:22.841  INFO 12428 --- [restartedMain] br.com.slurpuff.SlurpuffShopApplication  : Started SlurpuffShopApplication in 6.903 seconds (JVM running for 7.629)
+2022-06-03 03:20:37.978  INFO 12428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-03 03:20:37.979  INFO 12428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-03 03:20:37.980  INFO 12428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-03 04:34:40.678  WARN 12428 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=24m20s98ms150µs900ns).
